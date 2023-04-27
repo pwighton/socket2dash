@@ -1,5 +1,31 @@
-# real-time-live-streamlit-dashboard-python
+# socket2dash
 
-Data Source used - https://github.com/Lexie88rus/bank-marketing-analysis
+Read data from a socket and display it on a real-time dashbord
 
-![image](https://user-images.githubusercontent.com/5347322/150425537-6d3cb9c8-764c-4c23-910c-395c520b28cb.png)
+Geared mostly towards creating a real-time motion dashboard but hopefully useful more generally.
+
+# !!!---!!! WORK IN PROGRESS !!!---!!!
+
+## Setup
+
+```
+conda create --name socket2dash python=3.8
+conda activate socket2dash
+git clone git@github.com:pwighton/socket2dash
+cd socket2dash
+pip install -r requirements.txt
+```
+
+## Run
+
+```
+streamlit run app.py
+```
+
+## Refs
+
+Forked from https://github.com/amrrs/real-time-live-streamlit-dashboard-python
+
+See Also:
+  - https://blog.streamlit.io/how-to-build-a-real-time-live-dashboard-with-streamlit/#2-how-to-do-a-basic-dashboard-setup
+  - https://docs.streamlit.io/library/api-reference/charts/st.line_chart
